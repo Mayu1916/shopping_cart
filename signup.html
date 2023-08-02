@@ -2,15 +2,18 @@
 <html>
 <head>
   <title>Sign Up</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div id="content">
-    <h1>Sign Up</h1>
-    <form id="signupForm">
-      <label for="firstName">First Name:</label>
-      <input type="text" id="firstName" required>
-      <button type="submit">Sign Up</button>
-    </form>
-  </div>
+  <!-- Signup form -->
+  <form id="signupForm">
+    <input type="text" placeholder="First Name" id="firstName">
+    <input type="text" placeholder="Last Name" id="lastName">
+    <input type="email" placeholder="Email" id="signupEmail">
+    <input type="password" placeholder="Password" id="signupPassword">
+    <input type="password" placeholder="Confirm Password" id="confirmPassword">
+    <button type="submit">Sign Up</button>
+  </form>
+  <script src="js/main.js"></script>
 </body>
 </html>
